@@ -80,6 +80,7 @@
     background: var(--secondary-color) !important;
     cursor: pointer;
     padding: 0.2rem 0.5rem !important;
+    border: none;
     border-radius: 8px; 
 
 }
