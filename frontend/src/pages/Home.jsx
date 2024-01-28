@@ -12,6 +12,7 @@ import ServiceList from '../services/ServiceList'
 import FeaturedTourList from '../components/Feature-tours/FeaturedTourList'
 import MasonryImagesGallery from '../components/Image-gallery/MasonryImagesGallery'
 import Testimonials from '../components/Testimonials/Testimonials'
+import Newsletter from '../shared/Newsletter'
 
 
 function Home() {
@@ -202,6 +203,8 @@ function Home() {
         </Container>
       </section>
       {/* ==================testimonial section end========== */}
+
+      <Newsletter/>
 
 
 
