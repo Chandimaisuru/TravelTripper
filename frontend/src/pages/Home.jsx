@@ -13,6 +13,7 @@ import FeaturedTourList from '../components/Feature-tours/FeaturedTourList'
 import MasonryImagesGallery from '../components/Image-gallery/MasonryImagesGallery'
 import Testimonials from '../components/Testimonials/Testimonials'
 import Newsletter from '../shared/Newsletter'
+import Footer from '../components/Footer/Footer'
 
 
 function Home() {
@@ -206,6 +207,9 @@ function Home() {
 
       <Newsletter/>
 
+      
+
+      
 
 
     </>
