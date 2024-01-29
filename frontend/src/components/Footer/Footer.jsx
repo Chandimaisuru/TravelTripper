@@ -36,6 +36,9 @@ const quick_links2 = [
 ];
 
 function Footer() {
+   
+  const year =new Date().getFullYear()
+
   return (
     <footer className="footer">
 
@@ -97,6 +100,46 @@ function Footer() {
 
           </ListGroup>
         </Col>
+
+        <Col lg="3">
+            <h5 className="footer__link-title">Contact</h5>
+
+            <ListGroup className="footer__quick-links">
+              <ListGroupItem className="gap-3 border-0 ps-0 d-flex align-items-center">
+                <h6 className="mb=0 d-flex align-items-center gap-2">
+                  <span>
+                    <i className="ri-map-pin-fill"></i>
+                  </span>
+                  Address:
+                </h6>
+
+                <p className="mb-0">Belihuloya, Balangoda</p>
+              </ListGroupItem>
+              <ListGroupItem className="gap-3 border-0 ps-0 d-flex align-items-center">
+                <h6 className="mb=0 d-flex align-items-center gap-2">
+                  <span>
+                  <i className="ri-mail-fill"></i>
+                  </span>
+                  Email:
+                </h6>
+
+                <p className="mb-0">traveltripper@.com</p>
+              </ListGroupItem>
+              <ListGroupItem className="gap-3 border-0 ps-0 d-flex align-items-center">
+                <h6 className="mb=0 d-flex align-items-center gap-2">
+                  <span>
+                  <i className="ri-phone-fill"></i>
+                  </span>
+                  Phone:
+                </h6>
+
+                <p className="mb-0">+941456790</p>
+              </ListGroupItem>
+            </ListGroup>
+          </Col>
+          <Col lg='12' className="pt-5 text-center">
+            <p className="copyright">Copyrights {year} All rights reserved</p>
+          </Col>
       </Row>
 
      </Container>
