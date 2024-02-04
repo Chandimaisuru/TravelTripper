@@ -13,7 +13,8 @@ import FeaturedTourList from '../components/Feature-tours/FeaturedTourList'
 import MasonryImagesGallery from '../components/Image-gallery/MasonryImagesGallery'
 import Testimonials from '../components/Testimonials/Testimonials'
 import Newsletter from '../shared/Newsletter'
-import Footer from '../components/Footer/Footer'
+import Tours from './Tours'
+
 
 
 function Home() {
@@ -110,7 +111,7 @@ function Home() {
         </Container>
       </section>
 
-      {/* ============Tour Section========== */}
+     
 
 
       {/* =============experience section ========== */}
@@ -160,7 +161,7 @@ function Home() {
 
 
 
-      {/* =============experience section ========== */}
+     
 
       {/* ==================gallery section========== */}
 
@@ -181,7 +182,7 @@ function Home() {
         </Container>
       </section>
       
-      {/* ==================gallery section end========== */}
+  
 
       {/* ==================testimonial section========== */}
          
@@ -203,13 +204,13 @@ function Home() {
           </Row>
         </Container>
       </section>
+      
       {/* ==================testimonial section end========== */}
 
       <Newsletter/>
 
-      
 
-      
+      <Tours/>
 
 
     </>
