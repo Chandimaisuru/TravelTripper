@@ -31,7 +31,7 @@ const {totalRating, avgRating} = calculateAvgRating(reviews);
                 </span>
 
                 <span className='gap-1 tour__rating d-flex align-items-center'>
-                <i class="ri-star-line"></i>
+                <i class="ri-star-s-fill"></i>
 
             {avgRating === 0 ? null : avgRating}
               {totalRating === 0 ? (
