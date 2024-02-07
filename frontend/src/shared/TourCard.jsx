@@ -26,12 +26,12 @@ const {totalRating, avgRating} = calculateAvgRating(reviews);
              <div className='card__top d-flex align-items-center justify-content-between'>
                 
                 <span className='gap-1 tour__location d-flex align-items-center'>
-                <i class="ri-map-pin-line"></i>
+                <i className="ri-map-pin-line"></i>
                 {city}
                 </span>
 
                 <span className='gap-1 tour__rating d-flex align-items-center'>
-                <i class="ri-star-s-fill"></i>
+                <i className="ri-star-s-fill"></i>
 
             {avgRating === 0 ? null : avgRating}
               {totalRating === 0 ? (

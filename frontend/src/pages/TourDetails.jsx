@@ -6,6 +6,7 @@ import { useParams } from 'react-router-dom'
 import tourData from '../assets/data/tours'
 import calculateAvgRating from '../utils/avgRating'
 import avatar from "../assets/images/avatar.jpg"
+import Booking from '../components/Booking/Booking'
 
 function TourDetails() {
   const { id } = useParams()
@@ -18,7 +19,16 @@ function TourDetails() {
   const tour = tourData.find(tour => tour.id === id)
 
   const {
-    photo, title, desc, price, reviews, city, distance, maxGroupSize, address } = tour
+    photo,
+    title,
+    desc,
+    price,
+    address,
+    reviews,
+    city,
+    distance,
+    maxGroupSize,
+  } = tour 
 
   const { totalRating, avgRating } = calculateAvgRating(reviews)
 
@@ -49,7 +59,7 @@ function TourDetails() {
                   <div className='gap-4 d-flex align-items-center'>
 
                     <span className='gap-1 tour__rating d-flex align-items-center'>
-                      <i class="ri-star-s-fill" style={{ "color": "var(--secondary-color)" }}></i>
+                      <i className="ri-star-s-fill" style={{ "color": "var(--secondary-color)" }}></i>
 
                       {calculateAvgRating === 0 ? null : avgRating}
                       {totalRating === 0 ? (
@@ -62,7 +72,7 @@ function TourDetails() {
                     </span>
 
                     <span>
-                      <i class='ri-map-pin-fill'></i> {address}
+                      <i className='ri-map-pin-fill'></i> {address}
                     </span>
 
                   </div>
@@ -126,30 +136,37 @@ function TourDetails() {
                     </div>
                   </Form>
 
-                  <ListGroup className='user__reviews'>
-                    {reviews?.map(reviews => (
-                      <div className='review__item'>
-                        <img src={avatar} alt="" />
+                  <ListGroup className="user__review">
+                      {reviews?.map((reviews) => (
+                        <div className="review__item">
+                          <img src={avatar} alt="" />
 
-                        <div className='w-100'>
-                          <div className='d-flex align-items-center justify-content-between'>
-                            <div>
-                              <h5>Joshep</h5>
-                              <p>
-                                {new Date("02-05-2024").toLocaleDateString("en-US", options)}
-                              </p>
+                          <div className="w-100">
+                            <div className="d-flex align-items-center justify-content-between">
+                              <div>
+                                <h5>{reviews.username}</h5>
+                                <p>
+                                  {new Date(reviews.createdAt).toLocaleDateString(
+                                    "en-US",
+                                    options
+                                  )}
+                                </p>
+                              </div>
+                              <span className="d-flex align-items-center">
+                                {reviews.rating} <i className="ri-star-s-fill"></i>
+                              </span>
                             </div>
-                            <span className='d-flex align-items-center'> 5 <i className="ri-star-s-fill"></i>
-                            </span>
+                            <h6>{reviews.reviewText}</h6>
                           </div>
-                          <h6>Amazing tour</h6>
                         </div>
-                      </div>
-
-                    ))}
-                  </ListGroup>
+                      ))}
+                    </ListGroup>
                 </div>
               </div>
+            </Col>
+
+            <Col lg="4">
+              <Booking tour={tour} avgRating={avgRating}/>
             </Col>
           </Row>
         </Container>

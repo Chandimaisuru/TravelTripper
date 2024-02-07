@@ -100,7 +100,7 @@ function Header() {
 
               <span className='flex mobile__menu'>
 
-                < i class="ri-menu-line"></i>
+                < i className="ri-menu-line"></i>
               </span>
             </div>
 

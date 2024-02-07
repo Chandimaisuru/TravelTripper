@@ -51,19 +51,19 @@ function Footer() {
 
             <div className="gap-4 social__links d-flex align-items-center">
                    <span>
-                      <Link to='#'><i class="ri-youtube-line"></i></Link>
+                      <Link to='#'><i className="ri-youtube-line"></i></Link>
                     </span> 
 
                     <span>
-                      <Link to='#'><i class="ri-github-fill"></i></Link>
+                      <Link to='#'><i className="ri-github-fill"></i></Link>
                     </span> 
 
                     <span>
-                      <Link to='#'><i class="ri-facebook-circle-fill"></i></Link>
+                      <Link to='#'><i className="ri-facebook-circle-fill"></i></Link>
                     </span> 
 
                     <span>
-                      <Link to='#'><i class="ri-instagram-line"></i></Link>
+                      <Link to='#'><i className="ri-instagram-line"></i></Link>
                     </span> 
                     
             </div>
