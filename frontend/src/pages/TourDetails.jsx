@@ -7,9 +7,10 @@ import tourData from '../assets/data/tours'
 import calculateAvgRating from '../utils/avgRating'
 import avatar from "../assets/images/avatar.jpg"
 import Booking from '../components/Booking/Booking'
+import Newsletter from '../shared/Newsletter'
 
 function TourDetails() {
-  const { id } = useParams()
+  const {id} = useParams()
 
   const reviewMsgRef = useRef('')
   const [tourRating, setTourRating] = useState(null)
@@ -161,6 +162,7 @@ function TourDetails() {
                         </div>
                       ))}
                     </ListGroup>
+                    
                 </div>
               </div>
             </Col>
@@ -171,6 +173,8 @@ function TourDetails() {
           </Row>
         </Container>
       </section>
+
+      <Newsletter/>
 
 
     </>
