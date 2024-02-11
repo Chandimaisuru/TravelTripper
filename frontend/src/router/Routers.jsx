@@ -8,6 +8,7 @@ import Login from '../pages/Login'
 import Register from '../pages/Register'
 import SearchResultList from '../pages/SearchResultList'
 import ThankYou from '../pages/ThankYou'
+import About from '../pages/About'
 
 
 function Routers() {
@@ -19,6 +20,7 @@ function Routers() {
         <Route path='/tours/:id' element = {<TourDetails/>} />
         <Route path='/login' element = {<Login/>} /> 
         <Route path='/register' element = {<Register/>} />
+        <Route path='/about' element = {<About/>} />
         <Route path='/thank-you' element = {<ThankYou/>} />
         <Route path='/tours/search' element = {<SearchResultList/>} />
     </Routes>
