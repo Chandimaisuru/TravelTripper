@@ -205,12 +205,13 @@ function Home() {
         </Container>
       </section>
       
-      {/* ==================testimonial section end========== */}
+     
+     {/* ===========Newsletter================ */}
 
       <Newsletter/>
 
 
-      <Tours/>
+     
 
 
     </>
