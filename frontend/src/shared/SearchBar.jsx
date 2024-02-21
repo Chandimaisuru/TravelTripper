@@ -31,7 +31,7 @@ function SearchBar() {
             <FormGroup className='gap-3 d-flex form__group-fast form__group'>
 
               <span>
-                <i class="ri-map-pin-line"></i>
+                <i className="ri-map-pin-line"></i>
 
               </span>
 
@@ -45,7 +45,7 @@ function SearchBar() {
             <FormGroup className='gap-3 d-flex form__group-fast form__group'>
 
               <span>
-                <i class="ri-map-pin-time-line"></i>
+                <i className="ri-map-pin-time-line"></i>
 
               </span>
 
@@ -59,7 +59,7 @@ function SearchBar() {
             <FormGroup className='gap-3 d-flex form__group-last form__group'>
 
               <span>
-              <i class="ri-group-line"></i>
+              <i className="ri-group-line"></i>
 
               </span>
 
@@ -72,7 +72,7 @@ function SearchBar() {
 
             <span className='search__icon' type ="submit" onClick={searchHandler}>
               
-                 <i class="ri-search-line"></i>
+                 <i className="ri-search-line"></i>
 
             </span>
 
