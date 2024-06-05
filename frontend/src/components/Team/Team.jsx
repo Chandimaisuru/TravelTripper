@@ -34,11 +34,11 @@ const Team = () => {
   };
   return (
     <Slider {...settings}>
-      <div className="px-3 py-4 team">
-        <div className="gap-4 mt-3 team_Name d-flex align-items-center">
+      <div className="team py-4 px-3">
+        <div className="team_Name d-flex align-items-center gap-4 mt-3">
           <img src={ava01} className="w-25 h-25 rounded-2" alt="" />
           <div>
-            <h6 className="mt-3 mb-0">Nimal Silva</h6>
+            <h6 className="mb-0 mt-3">Nimal Silva</h6>
             <p>Customer</p>
           </div>
         </div>
@@ -51,11 +51,11 @@ const Team = () => {
         </p>
       </div>
 
-      <div className="px-3 py-4 team">
-        <div className="gap-4 mt-3 team_Name d-flex align-items-center">
+      <div className="team py-4 px-3">
+        <div className="team_Name d-flex align-items-center gap-4 mt-3">
           <img src={ava02} className="w-25 h-25 rounded-2" alt="" />
           <div>
-            <h6 className="mt-3 mb-0">Nimal Silva</h6>
+            <h6 className="mb-0 mt-3">Nimal Silva</h6>
             <p>Customer</p>
           </div>
         </div>
@@ -68,11 +68,11 @@ const Team = () => {
         </p>
       </div>
 
-      <div className="px-3 py-4 team">
-        <div className="gap-4 mt-3 team_Name d-flex align-items-center">
+      <div className="team py-4 px-3">
+        <div className="team_Name d-flex align-items-center gap-4 mt-3">
           <img src={ava03} className="w-25 h-25 rounded-2" alt="" />
           <div>
-            <h6 className="mt-3 mb-0">Nimal Silva</h6>
+            <h6 className="mb-0 mt-3">Nimal Silva</h6>
             <p>Customer</p>
           </div>
         </div>
@@ -85,11 +85,11 @@ const Team = () => {
         </p>
       </div>
 
-      <div className="px-3 py-4 team">
-        <div className="gap-4 mt-3 team_Name d-flex align-items-center">
+      <div className="team py-4 px-3">
+        <div className="team_Name d-flex align-items-center gap-4 mt-3">
           <img src={ava01} className="w-25 h-25 rounded-2" alt="" />
           <div>
-            <h6 className="mt-3 mb-0">Nimal Silva</h6>
+            <h6 className="mb-0 mt-3">Nimal Silva</h6>
             <p>Customer</p>
           </div>
         </div>
@@ -102,11 +102,11 @@ const Team = () => {
         </p>
       </div>
 
-      <div className="px-3 py-4 team">
-        <div className="gap-4 mt-3 team_Name d-flex align-items-center">
+      <div className="team py-4 px-3">
+        <div className="team_Name d-flex align-items-center gap-4 mt-3">
           <img src={ava02} className="w-25 h-25 rounded-2" alt="" />
           <div>
-            <h6 className="mt-3 mb-0">Nimal Silva</h6>
+            <h6 className="mb-0 mt-3">Nimal Silva</h6>
             <p>Customer</p>
           </div>
         </div>
@@ -119,11 +119,11 @@ const Team = () => {
         </p>
       </div>
 
-      <div className="px-3 py-4 team">
-        <div className="gap-4 mt-3 team_Name d-flex align-items-center">
+      <div className="team py-4 px-3">
+        <div className="team_Name d-flex align-items-center gap-4 mt-3">
           <img src={ava03} className="w-25 h-25 rounded-2" alt="" />
           <div>
-            <h6 className="mt-3 mb-0">Nimal Silva</h6>
+            <h6 className="mb-0 mt-3">Nimal Silva</h6>
             <p>Customer</p>
           </div>
         </div>

@@ -65,8 +65,8 @@ const About = () => {
                 </p>
 
                 <h2>Contact Information</h2>
-                <p>Email: traveltripper@.com</p>
-                <p>Phone: +94 1456790</p>
+                <p>Email: pearl@info.com</p>
+                <p>Phone: +94 77 123 4567</p>
 
                 <h2>Privacy Information</h2>
                 <p>
@@ -120,7 +120,7 @@ const About = () => {
                       <option value="Country">Country</option>
                     </select>
                   </FormGroup>
-                  <Button className="mt-4 mb-1 btn primary__btn w-100" >Send</Button>
+                  <Button className="btn primary__btn w-100 mb-1 mt-4" >Send</Button>
                 </Form>
               </div>
             </Col>
